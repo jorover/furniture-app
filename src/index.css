@@ -84,6 +84,10 @@ code {
   align-items: center;
 }
 
+.snipcart-total-price {
+  cursor: pointer;
+}
+
 .sideMenuContent {
   position: absolute;
   right: -1px;
