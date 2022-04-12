@@ -36,8 +36,8 @@ const TopBar = () => {
                     </nav>
 
                     <aside className="LogInAddtoCart">                     
-                        <button type="button" className="TopBarBtn">
-                                <Link style={Links} to="/buynow"> BUY NOW </Link>
+                        <button type="button" className="TopBarBtn btn">
+                                <Link to="/buynow"> BUY NOW </Link>
                         </button>
 
                         <p className="snipcart-checkout snipcart-summary" href="#"><a>Cart:<span className="snipcart-total-price">$0.00</span>

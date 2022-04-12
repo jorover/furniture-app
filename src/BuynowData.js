@@ -7,7 +7,6 @@ import img6 from './Gallery/sf.jpeg'
 import img7 from './Gallery/sf6.jpeg'
 import img8 from './Gallery/s7.jpeg'
 import img9 from './Gallery/s8.jpeg'
-import love from '../src/Gallery/love.png'
 import cart from '../src/Gallery/cart.png'
 import pass from '../src/Gallery/pass.png'
 
@@ -18,7 +17,8 @@ export const buyNowData = [
         productName: 'Ville',
         priceOne: '$ 199',
         priceTwo: '149',
-        addToCartIcon: [cart],
+        seenTitle: 'View Furniture',
+        seenIcon: [pass],
         addToCartTitle: 'Add to Cart',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime iste delectus debitis, eum voluptate atque ullam ipsa error excepturi earum quibusdam! Excepturi quo, est quas explicabo beatae voluptas distinctio?'
     },
@@ -29,6 +29,8 @@ export const buyNowData = [
         productName: 'Hullie',
         priceOne: '$ 199',
         priceTwo: '149',
+        seenTitle: 'View Furniture',
+        seenIcon: [pass],
         addToCartIcon: [cart],
         addToCartTitle: 'Add to Cart', 
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime iste delectus debitis, eum voluptate atque ullam ipsa error excepturi earum quibusdam! Excepturi quo, est quas explicabo beatae voluptas distinctio?'
@@ -40,6 +42,8 @@ export const buyNowData = [
         productName: 'Bryant',
         priceOne: '$ 199',
         priceTwo: '149',
+        seenTitle: 'View Furniture',
+        seenIcon: [pass],
         addToCartIcon: [cart],
         addToCartTitle: 'Add to Cart', 
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime iste delectus debitis, eum voluptate atque ullam ipsa error excepturi earum quibusdam! Excepturi quo, est quas explicabo beatae voluptas distinctio?'
@@ -51,6 +55,8 @@ export const buyNowData = [
         productName: 'Eastie',
         priceOne: '$ 199',
         priceTwo: '149',
+        seenTitle: 'View Furniture',
+        seenIcon: [pass],
         addToCartIcon: [cart],
         addToCartTitle: 'Add to Cart',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime iste delectus debitis, eum voluptate atque ullam ipsa error excepturi earum quibusdam! Excepturi quo, est quas explicabo beatae voluptas distinctio?'
@@ -63,6 +69,8 @@ export const buyNowData = [
         productName: 'Gecko',
         priceOne: '$ 199',
         priceTwo: '149',
+        seenTitle: 'View Furniture',
+        seenIcon: [pass],
         addToCartIcon: [cart],
         addToCartTitle: 'Add to Cart',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime iste delectus debitis, eum voluptate atque ullam ipsa error excepturi earum quibusdam! Excepturi quo, est quas explicabo beatae voluptas distinctio?'
@@ -74,6 +82,8 @@ export const buyNowData = [
         productName: 'Singapore',
         priceOne: '$ 199',
         priceTwo: '149',
+        seenTitle: 'View Furniture',
+        seenIcon: [pass],
         addToCartIcon: [cart],
         addToCartTitle: 'Add to Cart',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime iste delectus debitis, eum voluptate atque ullam ipsa error excepturi earum quibusdam! Excepturi quo, est quas explicabo beatae voluptas distinctio?'
@@ -85,6 +95,8 @@ export const buyNowData = [
         productName: 'Bhurnny',
         priceOne: '$ 199',
         priceTwo: '149',
+        seenTitle: 'View Furniture',
+        seenIcon: [pass],
         addToCartIcon: [cart],
         addToCartTitle: 'Add to Cart',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime iste delectus debitis, eum voluptate atque ullam ipsa error excepturi earum quibusdam! Excepturi quo, est quas explicabo beatae voluptas distinctio?'
@@ -96,6 +108,8 @@ export const buyNowData = [
         productName: 'Mushroom',
         priceOne: '$ 199',
         priceTwo: '149',
+        seenTitle: 'View Furniture',
+        seenIcon: [pass],
         addToCartIcon: [cart],
         addToCartTitle: 'Add to Cart',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime iste delectus debitis, eum voluptate atque ullam ipsa error excepturi earum quibusdam! Excepturi quo, est quas explicabo beatae voluptas distinctio?'
@@ -107,6 +121,8 @@ export const buyNowData = [
         productName: 'Fiegt',
         priceOne: '$ 199',
         priceTwo: '149',
+        seenTitle: 'View Furniture',
+        seenIcon: [pass],
         addToCartIcon: [cart],
         addToCartTitle: 'Add to Cart',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae maxime iste delectus debitis, eum voluptate atque ullam ipsa error excepturi earum quibusdam! Excepturi quo, est quas explicabo beatae voluptas distinctio?'

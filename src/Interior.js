@@ -12,32 +12,32 @@ const Interior = () => {
 
               <figure className="InteriorGallery">
                     <figure className="InteriorlgImg firstInteriorImg">
-                        <button className="Btn interiorlgBtn"> 
-                        <Link style={Links} to="/buynow"> 
+                        <button className="btn interiorlgBtn"> 
+                        <Link to="/buynow"> 
                                 Open up for easy living
                           </Link>
                         </button>
                     </figure>
 
                     <figure className="InteriorsmImg SecondInteriorImg">
-                        <button className="Btn interiorSmBtn">
-                            <Link style={Links} to="/buynow"> 
+                        <button className="btn interiorSmBtn">
+                            <Link to="/buynow"> 
                                 Open up for easy living
                           </Link> 
                         </button>
                     </figure>
            
                     <figure className="InteriorlgImg thirdInteriorImg">
-                        <button className="Btn interiorlgBtn">
-                        <Link style={Links} to="/buynow"> 
+                        <button className="btn interiorlgBtn">
+                        <Link to="/buynow"> 
                                 Open up for easy living
                           </Link>
                         </button>
                     </figure>
 
                     <figure className="InteriorsmImg fourthInteriorImg">
-                        <button className="Btn interiorSmBtn">
-                        <Link style={Links} to="/buynow"> 
+                        <button className="btn interiorSmBtn">
+                        <Link to="/buynow"> 
                                 Open up for easy living
                           </Link>
                         </button>
@@ -49,10 +49,5 @@ const Interior = () => {
   )
 }
 
-const Links = {
-    color:'#fff',
-    textDecoration: 'none'
-
-}
 
 export default Interior

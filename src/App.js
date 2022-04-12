@@ -7,6 +7,9 @@ import Support from './Support'
 import Blog from './Blog'
 import BuyNow from './Buynow'
 import Footer from './Footer'
+import ProductDetails from './ProductDetails'
+import Terms from './Terms'
+import Privacy from './Privacy'
 
 
 const App = () => {
@@ -19,6 +22,9 @@ const App = () => {
                 <Route path="/support" element={<Support />}> </Route>
                 <Route path="/blog" element={<Blog />}> </Route>
                 <Route path="/buynow" element={<BuyNow />}> </Route>
+                <Route path="/product/:id" element={<ProductDetails />}></Route>
+                <Route path="/privacy" element={<Privacy />}> </Route>
+                <Route path="/terms" element={<Terms />}></Route>
             </Routes>
             <Footer />
         </div>

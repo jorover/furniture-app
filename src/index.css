@@ -180,18 +180,41 @@ li {
   margin: 20px auto;
 }
 
-.Btn {
+.btn {
   padding: 10px;
   height: 35px;
   border: none;
   background: #b00000;
   color: #ffffff;
-  margin: 20px 0;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .HeroBtn {
   width: 30%;
+}
+
+.HeroBtn,
+.showCaseBtn,
+.newsLetterBtn {
+  margin: 20px 0px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:hover a {
+  background: #000;
+  color: #fff;
+}
+
+.addToCartBtn:hover,
+.newsLetterBtn:hover {
+  background: #000;
+  color: #fff;
 }
 
 .AboutUsSection {
@@ -226,6 +249,8 @@ li {
   width: 33.33%;
   min-height: 350px;
   text-align: center;
+  transform: scale(1);
+  transition: 0.4s;
 }
 
 .AboutFirstImg {
@@ -240,28 +265,8 @@ li {
   background: url('../src/Gallery/uuif.jpeg') no-repeat center center;
 }
 
-.AboutUsImgContent {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  background: #000;
-  height: 0px;
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-.AboutUsImg:hover .AboutUsImgContent {
-  height: 400px;
-  opacity: 0.7;
-}
-
-.aboutUsBtn {
-  position: absolute;
-  bottom: 20px;
-  left: 25%;
-  width: 50%;
-  cursor: pointer;
+.AboutUsImg:hover {
+  transform: scale(1.1);
 }
 
 .PopularProductsSection,
@@ -843,6 +848,94 @@ li {
   margin: auto;
 }
 
+.productDisplay {
+  width: 100vw;
+  min-height: 600px;
+}
+
+.productImgContainer img {
+  max-width: 400px;
+}
+
+.eachProductContainer {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.productImgContainer {
+  width: fit-content;
+}
+
+.eachProductDetails {
+  width: 50%;
+  padding: 20px;
+}
+
+.eachProductDetails h3 {
+  font-size: 1.3rem;
+}
+
+.cartPrice {
+  margin: 20px 0px;
+}
+
+.cartPrice {
+  font-size: 1.1rem;
+}
+
+.quantityLabel {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.quantity {
+  width: 15%;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.quantity:focus {
+  outline: none;
+}
+
+.eachProductDetails .quantity,
+.eachProductDetails button {
+  display: block;
+}
+
+.addToCartBtn {
+  background: #b00000;
+  border: none;
+  width: 80%;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.description p {
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+
+.footerLinkContent h3 {
+  padding-top: 30px;
+}
+
+.randomText {
+  min-height: 400px;
+  width: 90vw;
+  margin: 20px auto;
+}
+
 @media (max-width: 1200px) {
   .NavBarContainer {
     width: 75%;
@@ -969,6 +1062,22 @@ li {
   .buyNowProducts {
     margin: auto;
   }
+
+  .eachProductContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .productImgContainer,
+  .eachProductDetails {
+    margin: auto;
+    width: 70%;
+  }
+
+  .productImgContainer img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 650px) {
@@ -1038,6 +1147,25 @@ li {
   .snipcart-item-line__header img {
     left: 38%;
   }
+
+  .productImgContainer,
+  .eachProductDetails,
+  .addToCartBtn {
+    width: 100%;
+  }
+
+  .quantity {
+    margin: 10px auto;
+  }
+
+  .eachProductDetails {
+    text-align: center;
+  }
+}
+
+.productLink {
+  text-decoration: none;
+  color: #000;
 }
 
 @media (max-width: 400px) {

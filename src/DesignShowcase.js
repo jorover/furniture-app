@@ -9,7 +9,7 @@ const DesignShowcase = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 <form action="#" className="designForm">
                     <input type="email" placeholder="Enter your email" required/>
-                    <input type="submit" value="Subscribe Now" className="Btn" />
+                    <input type="submit" value="Subscribe Now" className="btn showCaseBtn" />
                 </form>
             </article>
         </div>

@@ -22,7 +22,7 @@ const Hero = () => {
               <article className="HeroContent">
                 <article className="HeroText">
                   <h1> Let's give your home<br /> Furnitures that <br /> define it's purpose </h1>           
-                  <button type="button" className="Btn HeroBtn"> VIEW MORE </button>
+                  <button type="button" className="btn HeroBtn"> VIEW MORE </button>
                 </article>
               </article>
             </div>
@@ -35,7 +35,7 @@ const Hero = () => {
               <article className="HeroContent">
                 <article className="HeroText">
                   <h1> Your Home  <br />  deserves  <br /> nothing  short <br /> of the best </h1>           
-                  <button type="button" className="Btn HeroBtn"> VIEW MORE </button>
+                  <button type="button" className="btn HeroBtn"> VIEW MORE </button>
                 </article>
               </article>
             </div>
@@ -47,7 +47,7 @@ const Hero = () => {
               <article className="HeroContent">
                 <article className="HeroText">
                 <h1> Let's give your home<br /> the elegance <br /> of comfort. </h1>            
-                  <button type="button" className="Btn HeroBtn"> VIEW MORE </button>
+                  <button type="button" className="btn HeroBtn"> VIEW MORE </button>
                 </article>
               </article>
             </div>
